@@ -9,9 +9,10 @@
     "timestamps": true
   },
   "attributes": {
-    "name": {
+    "title": {
       "default": "",
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "image": {
       "model": "file",
@@ -44,6 +45,10 @@
     "categories": {
       "collection": "category",
       "via": "media"
+    },
+    "status": {
+      "default": "",
+      "type": "string"
     }
   }
 }
