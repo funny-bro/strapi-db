@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "category",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "parent": {
+      "model": "category"
+    },
+    "description": {
+      "default": "",
+      "type": "text"
+    },
+    "media": {
+      "model": "media",
+      "via": "categories"
+    }
+  }
+}

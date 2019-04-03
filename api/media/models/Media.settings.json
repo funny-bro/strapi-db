@@ -1,0 +1,49 @@
+{
+  "connection": "default",
+  "collectionName": "media",
+  "info": {
+    "name": "media",
+    "description": "included media from social media"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "videos": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "default": "",
+      "type": "text"
+    },
+    "source": {
+      "default": "",
+      "type": "string"
+    },
+    "type": {
+      "default": "",
+      "type": "string"
+    },
+    "sourceId": {
+      "default": "",
+      "type": "string"
+    },
+    "categories": {
+      "collection": "category",
+      "via": "media"
+    }
+  }
+}
