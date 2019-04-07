@@ -55,6 +55,18 @@
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "viewCount": {
+      "default": "",
+      "type": "integer"
+    },
+    "likeCount": {
+      "default": "",
+      "type": "integer"
+    },
+    "commentCount": {
+      "default": "",
+      "type": "integer"
     }
   }
 }
