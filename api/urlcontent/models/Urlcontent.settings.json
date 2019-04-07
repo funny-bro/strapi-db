@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "urlcontent",
+  "info": {
+    "name": "urlcontent",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "minLength": 1,
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "default": "",
+      "type": "text"
+    },
+    "url": {
+      "default": "",
+      "type": "text"
+    },
+    "data": {
+      "default": "",
+      "type": "json"
+    }
+  }
+}
