@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "form-data": "^2.3.3",
     "lodash": "^4.17.5",
     "strapi": "3.0.0-alpha.18",
     "strapi-hook-mongoose": "3.0.0-alpha.18",

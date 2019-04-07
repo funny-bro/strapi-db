@@ -14,7 +14,7 @@
       "type": "string",
       "required": true
     },
-    "image": {
+    "images": {
       "collection": "file",
       "via": "related",
       "plugin": "upload",
